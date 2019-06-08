@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file provides examples of the types of data that may be loaded
+    by the Properties Manager. Note that 
+-->
+<properties>
+    <property_list>        
+        <!-- DESKTOP JAVA FRAMEWORK CONTROLS SETTINGS -->
+        <property name="MY_STRING"      value="Hello, World"></property>
+        <property name="MY_STRING_2"    value="Goodbye, Cruel World"></property>
+
+    </property_list>
+    <property_options_list>
+        <property_options name="MY_STRING_OPTIONS">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+        </property_options>
+        <property_options name="MY_STRING_OPTIONS_2">
+            <option>Monday</option>
+            <option>Tuesday</option>
+        </property_options>
+    </property_options_list>
+</properties>
